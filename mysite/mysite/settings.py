@@ -25,7 +25,7 @@ SECRET_KEY = 'i71kk_hcgj0ixn0i_u2$wae3vv$ou$abl%1ib#_6ar8-9n(ny3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'sagepoudel.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'www.sagepoudel.com']
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
+    'mysite',
 ]
 
 MIDDLEWARE_CLASSES = [
