@@ -81,8 +81,11 @@ DATABASES = {
         'USER': 'pdlsaroj22',
         'PASSWORD': 'dhaitar1',
         'HOST': 'pdlsaroj22.mysql.pythonanywhere-services.com',
+        'OPTIONS':{
+        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        }
     }
-}
+    }
 
 
 # Password validation
