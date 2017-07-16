@@ -56,7 +56,7 @@ db.sqlite3
 .idea/
 *.pyc
 *.python
-
+migrations/
 
 
 # Sphinx documentation
